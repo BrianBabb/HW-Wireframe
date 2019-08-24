@@ -1,0 +1,101 @@
+
+body { 
+    background-color: #777;
+    font-size:18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align:center;
+    width: 960px;
+}
+    /*header  */
+.header {
+    background-color: #ebebeb;
+    color:#777;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.nav {   
+    background-color: #ebebeb;
+    color:#777;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px; 
+    
+}
+/* idk - seemed like a good idea at time - may delele
+*{
+    box-sizing: border-box;
+    text-align: center; 
+}
+*/
+
+
+/* left box */
+#leftsect { 
+    background-color:#ebebeb;
+        width: 450px ;
+        height: 300px;
+        margin: 15px;
+        float: left;
+        border: #777;
+        text-align: center; 
+        
+        
+              }
+    /* right box next to left box.  */
+#rightaside {
+        float: left; 
+        width: 450px;
+        height: 300px;
+        margin: 15px;
+        background-color: #ebebeb;
+        border: #777;
+
+        
+      }
+/* dark gry box inside left box.  */
+.artinside {
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    width: 360px;
+    height: 220px;
+    top: 5px;
+    left: 50px;
+    background-color:#777;
+    color: #ebebeb;
+    }
+
+
+ /*  suppose to be inside article */
+.tripleH {
+    z-index: +5;
+    margin-top: -160px;
+    left: 40px;
+    background-color: blue;
+    width: 250px;
+    height: 60px;
+    
+
+}
+/* suppose to be inside article again */
+.Para {
+    
+    background-color: tomato;
+    width: 250px;
+    height:60px;
+
+   
+
+
+}
+  /* footer obviously  */
+.footer{
+    background-color: #ebebeb;
+    color:#777;
+    margin-top: 375px;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+}
